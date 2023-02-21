@@ -1715,3 +1715,163 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2023.02.21-16.19.35:245][368]LogFileHelpers: Saving map 'MyMap' took 0.027
 [2023.02.21-16.19.35:254][368]AssetCheck: New page: Asset Save: MyMap
 [2023.02.21-16.19.35:254][368]LogContentValidation: Display: Validating World /Game/MyMap.MyMap
+[2023.02.21-16.29.33:440][ 32]LogUObjectHash: Compacting FUObjectHashTables data took   2.72ms
+[2023.02.21-16.29.33:442][ 32]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/MyMap' took 0.022
+[2023.02.21-16.29.33:443][ 32]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BP_TestActor] ([2] browsable assets)...
+[2023.02.21-16.29.33:443][ 32]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP_TestActor]
+[2023.02.21-16.29.33:443][ 32]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_TestActor" FILE="../../../../../../StudyBP/MyBlueprintTest/Saved/Autosaves/Game/BP_TestActor_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2023.02.21-16.29.33:456][ 32]LogSavePackage: Moving '../../../../../../StudyBP/MyBlueprintTest/Saved/BP_TestActor_Auto301B63D704B46ECA2D92017944D3A74FC.tmp' to '../../../../../../StudyBP/MyBlueprintTest/Saved/Autosaves/Game/BP_TestActor_Auto3.uasset'
+[2023.02.21-16.29.33:457][ 32]LogFileHelpers: Auto-saving content packages took 0.015
+[2023.02.21-17.22.15:352][916]LogUObjectHash: Compacting FUObjectHashTables data took   3.13ms
+[2023.02.21-17.22.15:354][916]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMap" FILE="../../../../../../StudyBP/MyBlueprintTest/Saved/Autosaves/Game/MyMap_Auto4.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2023.02.21-17.22.15:362][916]LogSavePackage: Moving '../../../../../../StudyBP/MyBlueprintTest/Saved/MyMap_Auto4A89233C649914D6D26D53B84A9EA4F2B.tmp' to '../../../../../../StudyBP/MyBlueprintTest/Saved/Autosaves/Game/MyMap_Auto4.umap'
+[2023.02.21-17.22.15:363][916]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/MyMap' took 0.030
+[2023.02.21-17.22.15:363][916]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.030
+[2023.02.21-17.22.15:364][916]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BP_TestActor] ([2] browsable assets)...
+[2023.02.21-17.22.15:364][916]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP_TestActor]
+[2023.02.21-17.22.15:364][916]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_TestActor" FILE="../../../../../../StudyBP/MyBlueprintTest/Saved/Autosaves/Game/BP_TestActor_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2023.02.21-17.22.15:377][916]LogSavePackage: Moving '../../../../../../StudyBP/MyBlueprintTest/Saved/BP_TestActor_Auto40670954E406242873C40DE93A392B42F.tmp' to '../../../../../../StudyBP/MyBlueprintTest/Saved/Autosaves/Game/BP_TestActor_Auto4.uasset'
+[2023.02.21-17.22.15:377][916]LogFileHelpers: Auto-saving content packages took 0.014
+[2023.02.21-17.22.57:571][947]LogTemp: Repeating last play command: Selected Viewport
+[2023.02.21-17.22.57:576][947]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.02.21-17.22.57:576][947]LogPlayLevel: [PlayLevel] Compiling BP_TestActor before play...
+[2023.02.21-17.22.57:613][947]LogUObjectHash: Compacting FUObjectHashTables data took   2.49ms
+[2023.02.21-17.22.57:614][947]LogPlayLevel: PlayLevel: Blueprint regeneration took 38 ms (1 blueprints)
+[2023.02.21-17.22.57:614][947]PIE: New page: PIE session: MyMap (Feb 22, 2023, 11:22:57 AM)
+[2023.02.21-17.22.57:614][947]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyMap
+[2023.02.21-17.22.57:616][947]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001537s)
+[2023.02.21-17.22.57:616][947]LogAIModule: Creating AISystem for world MyMap
+[2023.02.21-17.22.57:617][947]LogPlayLevel: PIE: World Init took: (0.000801s)
+[2023.02.21-17.22.57:617][947]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyMap.MyMap to /Game/UEDPIE_0_MyMap.MyMap (0.002413s)
+[2023.02.21-17.22.57:632][947]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2023.02.21-17.22.57:633][947]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2023.02.21-17.22.57:633][947]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.02.21-17.22.57:633][947]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.02.21-17.22.57:633][947]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.02.21-17.22.57:633][947]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.02.21-17.22.57:633][947]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.02.21-17.22.57:633][947]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.02.21-17.22.57:633][947]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.02.21-17.22.57:633][947]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.02.21-17.22.57:633][947]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.02.21-17.22.57:633][947]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.02.21-17.22.57:633][947]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.02.21-17.22.57:633][947]LogAudioMixer: Display: Initializing audio mixer.
+[2023.02.21-17.22.57:644][947]LogAudioMixer: Display: 0: FrontLeft
+[2023.02.21-17.22.57:644][947]LogAudioMixer: Display: 1: FrontRight
+[2023.02.21-17.22.57:669][947]LogAudioMixer: Display: Using Audio Device Realtek HD Audio 2nd output(Realtek(R) Audio)
+[2023.02.21-17.22.57:669][947]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.02.21-17.22.57:669][947]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.02.21-17.22.57:669][947]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.02.21-17.22.57:670][947]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.02.21-17.22.57:670][947]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.02.21-17.22.57:670][947]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.02.21-17.22.57:671][947]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.02.21-17.22.57:671][947]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.02.21-17.22.57:671][947]LogInit: FAudioDevice initialized.
+[2023.02.21-17.22.57:671][947]LogAudio: Display: Audio Device (ID: 13) registered with world 'MyMap'.
+[2023.02.21-17.22.57:686][947]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.21-17.22.57:686][947]LogLoad: Game class is 'GameModeBase'
+[2023.02.21-17.22.57:687][947]LogWorld: Bringing World /Game/UEDPIE_0_MyMap.MyMap up for play (max tick rate 0) at 2023.02.22-02.22.57
+[2023.02.21-17.22.57:687][947]LogWorld: Bringing up level for play took: 0.000436
+[2023.02.21-17.22.57:688][947]LogOnline: OSS: Creating online subsystem instance for: :Context_14
+[2023.02.21-17.22.57:689][947]LogBlueprintUserMessages: [BP_TestActor_2] 100
+[2023.02.21-17.22.57:689][947]LogBlueprintUserMessages: [BP_TestActor_2] 100
+[2023.02.21-17.22.57:689][947]LogBlueprintUserMessages: [BP_TestActor_2] 100
+[2023.02.21-17.22.57:689][947]LogBlueprintUserMessages: [BP_TestActor_2] 100
+[2023.02.21-17.22.57:690][947]LogBlueprintUserMessages: [BP_TestActor_2] 100
+[2023.02.21-17.22.57:690][947]LogBlueprintUserMessages: [BP_TestActor_2] 100
+[2023.02.21-17.22.57:690][947]LogBlueprintUserMessages: [BP_TestActor_2] 100
+[2023.02.21-17.22.57:690][947]LogBlueprintUserMessages: [BP_TestActor_2] 100
+[2023.02.21-17.22.57:690][947]LogBlueprintUserMessages: [BP_TestActor_2] 100
+[2023.02.21-17.22.57:690][947]LogBlueprintUserMessages: [BP_TestActor_2] 100
+[2023.02.21-17.22.57:690][947]PIE: Server logged in
+[2023.02.21-17.22.57:691][947]PIE: Play in editor total start time 0.117 seconds.
+[2023.02.21-17.23.01:713][416]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.21-17.23.01:713][416]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MyMap
+[2023.02.21-17.23.01:713][416]LogSlate: Window 'MyBlueprintTest Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2023.02.21-17.23.01:716][416]LogWorld: UWorld::CleanupWorld for MyMap, bSessionEnded=true, bCleanupResources=true
+[2023.02.21-17.23.01:716][416]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.21-17.23.01:725][416]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.02.21-17.23.01:732][416]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.21-17.23.01:747][416]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.02.21-17.23.01:748][416]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.02.21-17.23.01:753][416]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2023.02.21-17.23.01:773][417]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2023.02.21-17.23.18:582][429]LogTemp: Repeating last play command: Selected Viewport
+[2023.02.21-17.23.18:587][429]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.02.21-17.23.18:587][429]LogPlayLevel: [PlayLevel] Compiling BP_TestActor before play...
+[2023.02.21-17.23.18:624][429]LogUObjectHash: Compacting FUObjectHashTables data took   2.23ms
+[2023.02.21-17.23.18:625][429]LogPlayLevel: PlayLevel: Blueprint regeneration took 38 ms (1 blueprints)
+[2023.02.21-17.23.18:625][429]PIE: New page: PIE session: MyMap (Feb 22, 2023, 11:23:18 AM)
+[2023.02.21-17.23.18:625][429]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MyMap
+[2023.02.21-17.23.18:627][429]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001420s)
+[2023.02.21-17.23.18:627][429]LogAIModule: Creating AISystem for world MyMap
+[2023.02.21-17.23.18:627][429]LogPlayLevel: PIE: World Init took: (0.000828s)
+[2023.02.21-17.23.18:627][429]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyMap.MyMap to /Game/UEDPIE_0_MyMap.MyMap (0.002330s)
+[2023.02.21-17.23.18:643][429]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2023.02.21-17.23.18:643][429]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2023.02.21-17.23.18:643][429]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.02.21-17.23.18:643][429]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.02.21-17.23.18:643][429]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.02.21-17.23.18:643][429]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.02.21-17.23.18:643][429]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.02.21-17.23.18:643][429]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.02.21-17.23.18:643][429]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.02.21-17.23.18:643][429]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.02.21-17.23.18:644][429]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.02.21-17.23.18:644][429]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.02.21-17.23.18:644][429]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.02.21-17.23.18:644][429]LogAudioMixer: Display: Initializing audio mixer.
+[2023.02.21-17.23.18:654][429]LogAudioMixer: Display: 0: FrontLeft
+[2023.02.21-17.23.18:654][429]LogAudioMixer: Display: 1: FrontRight
+[2023.02.21-17.23.18:675][429]LogAudioMixer: Display: Using Audio Device Realtek HD Audio 2nd output(Realtek(R) Audio)
+[2023.02.21-17.23.18:676][429]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.02.21-17.23.18:676][429]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.02.21-17.23.18:676][429]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.02.21-17.23.18:676][429]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.02.21-17.23.18:676][429]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.02.21-17.23.18:676][429]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.02.21-17.23.18:677][429]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.02.21-17.23.18:677][429]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.02.21-17.23.18:677][429]LogInit: FAudioDevice initialized.
+[2023.02.21-17.23.18:677][429]LogAudio: Display: Audio Device (ID: 14) registered with world 'MyMap'.
+[2023.02.21-17.23.18:701][429]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.21-17.23.18:701][429]LogLoad: Game class is 'GameModeBase'
+[2023.02.21-17.23.18:702][429]LogWorld: Bringing World /Game/UEDPIE_0_MyMap.MyMap up for play (max tick rate 0) at 2023.02.22-02.23.18
+[2023.02.21-17.23.18:702][429]LogWorld: Bringing up level for play took: 0.000447
+[2023.02.21-17.23.18:702][429]LogOnline: OSS: Creating online subsystem instance for: :Context_15
+[2023.02.21-17.23.18:704][429]LogBlueprintUserMessages: [BP_TestActor_2] 101
+[2023.02.21-17.23.18:704][429]LogBlueprintUserMessages: [BP_TestActor_2] 102
+[2023.02.21-17.23.18:704][429]LogBlueprintUserMessages: [BP_TestActor_2] 103
+[2023.02.21-17.23.18:704][429]LogBlueprintUserMessages: [BP_TestActor_2] 104
+[2023.02.21-17.23.18:704][429]LogBlueprintUserMessages: [BP_TestActor_2] 105
+[2023.02.21-17.23.18:704][429]LogBlueprintUserMessages: [BP_TestActor_2] 106
+[2023.02.21-17.23.18:704][429]LogBlueprintUserMessages: [BP_TestActor_2] 107
+[2023.02.21-17.23.18:704][429]LogBlueprintUserMessages: [BP_TestActor_2] 108
+[2023.02.21-17.23.18:704][429]LogBlueprintUserMessages: [BP_TestActor_2] 109
+[2023.02.21-17.23.18:704][429]LogBlueprintUserMessages: [BP_TestActor_2] 110
+[2023.02.21-17.23.18:705][429]PIE: Server logged in
+[2023.02.21-17.23.18:705][429]PIE: Play in editor total start time 0.121 seconds.
+[2023.02.21-17.23.22:112][827]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.21-17.23.22:112][827]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MyMap
+[2023.02.21-17.23.22:113][827]LogSlate: Window 'MyBlueprintTest Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2023.02.21-17.23.22:116][827]LogWorld: UWorld::CleanupWorld for MyMap, bSessionEnded=true, bCleanupResources=true
+[2023.02.21-17.23.22:116][827]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.21-17.23.22:128][827]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.02.21-17.23.22:134][827]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.21-17.23.22:149][827]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.02.21-17.23.22:150][827]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.02.21-17.23.22:155][827]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2023.02.21-17.23.22:174][828]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2023.02.21-17.24.04:554][898]LogUObjectHash: Compacting FUObjectHashTables data took   2.65ms
+[2023.02.21-17.24.06:147][898]LogSlate: Window 'Save Content' being destroyed
+[2023.02.21-17.24.06:160][898]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_TestActor" FILE="../../../../../../StudyBP/MyBlueprintTest/Content/BP_TestActor.uasset" SILENT=true
+[2023.02.21-17.24.06:174][898]LogSavePackage: Moving '../../../../../../StudyBP/MyBlueprintTest/Saved/BP_TestActorE9DC2234493334A1C39AC0B3C6118AC3.tmp' to '../../../../../../StudyBP/MyBlueprintTest/Content/BP_TestActor.uasset'
+[2023.02.21-17.24.06:176][898]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMap" FILE="../../../../../../StudyBP/MyBlueprintTest/Content/MyMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.02.21-17.24.06:191][898]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2023.02.21-17.24.06:200][898]LogSavePackage: Moving '../../../../../../StudyBP/MyBlueprintTest/Saved/MyMapC20B64054DCE855D175D63A06577C80F.tmp' to '../../../../../../StudyBP/MyBlueprintTest/Content/MyMap.umap'
+[2023.02.21-17.24.06:202][898]LogFileHelpers: Saving map 'MyMap' took 0.027
+[2023.02.21-17.24.06:212][898]AssetCheck: New page: Asset Save: multiple assets
+[2023.02.21-17.24.06:212][898]LogContentValidation: Display: Validating World /Game/MyMap.MyMap
+[2023.02.21-17.24.06:212][898]LogContentValidation: Display: Validating Blueprint /Game/BP_TestActor.BP_TestActor
